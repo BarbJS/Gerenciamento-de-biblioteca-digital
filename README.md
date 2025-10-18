@@ -68,3 +68,5 @@ A execução bem-sucedida do script transforma um conjunto desorganizado de arqu
 - Acessibilidade e Recuperação: A estrutura lógica (Tipo > Ano) torna a localização e recuperação de documentos digitais um processo rápido e intuitivo para toda a equipe.
 
 - Escalabilidade: O sistema está preparado para lidar com o crescimento do acervo digital, processando milhares de documentos com a mesma eficiência de processar apenas um.
+
+*# Para mais informações obre como pode contribuir com este e outros repositórios, acesse o arquivo 'CONTRIBUTING.md' deste repositório.*
