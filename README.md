@@ -3,7 +3,7 @@ Sistema eficiente para gestão de documentos da sua biblioteca digital.
 
 1. DESCRIÇÃO
    
-O script foi concebido como uma solução de desenvolvimento de software para otimizar a gestão da coleção digital de uma biblioteca universitária, abordando os desafios de um acervo em constante expansão. A biblioteca possui uma vasta coleção de documentos digitais, incluindo artigos, teses e livros em múltiplos formatos (PDF, ePUB, HTML, etc). A organização manual desses arquivos é um processo demorado e altamente suscetível a inconsistências. 
+O script foi concebido como uma solução de desenvolvimento de software para otimizar a gestão da coleção digital de uma biblioteca universitária, abordando os desafios de um acervo em constante expansão. A biblioteca possui uma vasta coleção de documentos digitais, incluindo artigos, teses e livros em múltiplos formatos (PDF, ePUB, HTML, etc). Atualmente a organização desses arquivos é realizada de forma manual e, portanto, é um processo demorado e altamente suscetível a inconsistências. 
 
 2. OBJETIVOS
 
@@ -59,7 +59,11 @@ Descrição: Encerra o script de forma segura.
 
 5. RESULTADOS E BENEFÍCIOS
 
-A execução bem-sucedida do script transforma um conjunto desorganizado de arquivos em um acervo digital estruturado de forma lógica e padronizada. O resultado é a pasta "biblioteca_organizada" populada com uma hierarquia clara de tipo de arquivo (extensão) e ano de publicação. Os benefícios incluem:
+A execução bem-sucedida do script transforma um conjunto desorganizado de arquivos em um acervo digital estruturado de forma lógica e padronizada. O resultado é a pasta "biblioteca_organizada" populada com uma hierarquia clara de tipo de arquivo (extensão) e ano de publicação. 
+
+Além disso, possui uma *feature adicional de logging*. A execução do script também cria uma pasta chamada 'registros_log', em que são armazenados arquivos.txt, os quais contêm registros de cada nova interação com a interface CLI. Os registros informam qual ação do menu interativo foi solicitada, qual arquivo será afetado, data no momento da ação (em formato brasileiro) e horário no momento da ação (conforme fuso horário de Brasília). 
+
+Os benefícios incluem:
 
 - Eficiência Operacional: A automação da tarefa de classificação economiza horas de trabalho manual, liberando a equipe da biblioteca para atividades de maior valor.
 
@@ -68,5 +72,7 @@ A execução bem-sucedida do script transforma um conjunto desorganizado de arqu
 - Acessibilidade e Recuperação: A estrutura lógica (Tipo > Ano) torna a localização e recuperação de documentos digitais um processo rápido e intuitivo para toda a equipe.
 
 - Escalabilidade: O sistema está preparado para lidar com o crescimento do acervo digital, processando milhares de documentos com a mesma eficiência de processar apenas um.
+
+- Rastreabilidade e Segurança: Através da criação automática dos logs a cada interação na interface de comandos, é possível rastrear com facilidade e segurança o que foi feito, com qual arquivo e quando foi feito, dentro do Sistema de gerenciamento de arquivos digitais.
 
 *# Para mais informações obre como pode contribuir com este e outros repositórios, acesse o arquivo 'CONTRIBUTING.md' deste repositório.*
